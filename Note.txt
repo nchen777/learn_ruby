@@ -1,0 +1,5 @@
+Please note that all methods were written on a 2007 MacBook running OSX 10.7.5 Lion, using ruby 2.0.0p247.
+
+Thank you
+
+Nick
