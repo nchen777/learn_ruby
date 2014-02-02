@@ -17,8 +17,8 @@ end
 
 #multiply
 def multiply(array)
-  #can't start with 0 due to the fact if you do, everything will come out as zero
   numbers = 1
+  #can't start with 0 due to the fact if you do, everything will come out as zero
   array.each {|x| numbers *= x}
   numbers
 end

@@ -43,6 +43,7 @@ class RPNCalculator
   def divide
     last = pop
     @stack.push(pop / last.to_f)
+    #want to divide by last number, so need to pop it first so you can divide second to last number by it
   end
   
   def times
@@ -54,7 +55,9 @@ class RPNCalculator
     input.split.map do |things|
       if symbols.include?(things)
         things.to_sym
+        #make the symbols into symbols
       else things.to_f
+        #make everything else into floats
       end
     end
   end

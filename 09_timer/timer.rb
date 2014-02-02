@@ -11,5 +11,6 @@ class Timer
     #since dividing by interger and not float you get a whole number
     second = (@seconds%3600)%60
     sprintf("%02d:%02d:%02d", hour, minute, second)
+    #using sprintf to do special formating of strings
   end
 end

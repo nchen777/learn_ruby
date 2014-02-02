@@ -26,6 +26,7 @@ class Temperature
 
   def Temperature.from_fahrenheit(x)
     Temperature.new(:f => x)
+    #note: can use self.method instead of CLASS_NAME.method
   end
   
   def ftoc(f)
